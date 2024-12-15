@@ -37,4 +37,22 @@ const teamMembers = [
   }
 ];
 
-console.log(teamMembers)
+// DOM ELEMENTS
+const TeamGridElm = document.querySelector(".TeamGrid")
+
+//stampa delle card di default 
+let listMembers = ""
+for ( let i = 0; i < teamMembers.length; i++ ){
+  //destrutturazione
+  const {name, role, email, img} = teamMembers[i]
+  listMembers += `<div class="TeamCard">
+                    <img src=${img} alt="${name}" class="img-card">
+                    <div class="CardDescription">
+                      <h3>${name}</h3>
+                      <p>${role}</p>
+                      <a href="#">${email}</a>
+                    </div>
+                  </div>`
+
+}
+TeamGridElm.innerHTML = listMembers
