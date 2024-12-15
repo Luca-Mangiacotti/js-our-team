@@ -1,0 +1,79 @@
+/*----------------
+    RESET
+------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------
+    LAYOUT
+------------------*/
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TeamContainer {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+
+}
+
+.img-card {
+    max-width: 30%;
+    height: auto;
+    margin-right: 10px;
+}
+
+/*----------------
+   TIPOGRAPHY
+------------------*/
+body{
+    font-family: "Fredoka", sans-serif;
+}
+
+header{
+    color: #E53170;
+}
+
+h1,
+main > p{
+    text-align: center;
+}
+
+main > p {
+    margin: 15px;
+}
+/*----------------
+   HEADER
+------------------*/
+
+header h1{
+    padding: 10px;
+    margin: 25px auto;
+}
+
+/*----------------   
+ TEAM GRID SECTION
+------------------*/
+
+.TeamGrid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.TeamCard {
+    display: flex;
+    width: 100% / 3;
+    height: auto;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
