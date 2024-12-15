@@ -5,7 +5,7 @@ function createNewCard (newMember) {
   const {name, role, email, img} = newMember
 
   const newCard = `<div class="TeamCard">
-                      <img src=${img} alt="${name}" class="img-card">
+                      <img src="${img}" alt="${name}" class="img-card">
                       <div class="CardDescription">
                           <h3>${name}</h3>
                           <p>${role}</p>

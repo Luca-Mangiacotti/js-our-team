@@ -32,7 +32,7 @@
 
 .formContainer {
 
-    max-width: 800px;
+    max-width: 600px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -55,6 +55,10 @@ main > p{
 
 main > p {
     margin: 15px;
+}
+
+.TeamCard a {
+    color: #6ECBF2;
 }
 /*----------------
    HEADER
@@ -94,4 +98,37 @@ header h1{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+}
+
+
+/*----------------   
+    RESPONSIVE
+------------------*/
+
+/* Viewport "MEDIUM" da 0 a 869px*/
+@media screen and (max-width: 870px) {
+
+    .TeamCard{
+        width: calc((100% - 10px * 4) / 2);
+    }    
+    #addMember{
+        display: block;
+    }
+    .formElm{
+        margin: 15px auto;
+        padding-left: 150px;
+    }
+
+}
+
+/* Viewport "SMALL" da 0 a 649 */
+@media screen and (max-width: 650px) {
+
+    .TeamCard{
+        width: 100%;
+    }
+    .formElm{
+        padding-left: 15px;
+    }   
+
 }
