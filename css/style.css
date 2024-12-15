@@ -30,6 +30,13 @@
     margin-right: 10px;
 }
 
+.formContainer {
+
+    max-width: 800px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*----------------
    TIPOGRAPHY
 ------------------*/
@@ -77,4 +84,14 @@ header h1{
     color: white;
     margin: 10px;
 
+}
+
+/*----------------   
+    FORM
+------------------*/
+
+#addMember{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
