@@ -84,13 +84,13 @@ formElm.addEventListener("submit" , function(event){
   const name = newMemNameElm.value
   const role = newMemRoleElm.value
   const email = newMemEmailElm.value
-  const imgMem = newMemImgElm.value
+  const img = newMemImgElm.value
 
   const newMember = {
       name,
       role,
       email,
-      imgMem
+      img
   }
 
   //aggiornamento dell' array teamMembers
